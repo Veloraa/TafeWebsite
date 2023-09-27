@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kerry Learning - Lesson 3</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <h1 class="img"><img src="images/logo.png">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+                Kerry Learning</h1>
+            <ul class="menu">
+                <li><a href="copy_html.html">Home</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li div class="dropdown">
+                    <button class="dropbtn">Lessons</button>
+                    <div class="dropdown-content">
+                        <a href="Lesson1.html">Lesson 1</a>
+                        <a href="Lesson2.html">Lesson 2</a>
+                        <a href="Lesson3.html">Lesson 3</a>
+                    </div>
+               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <input type="text" placeholder="Search..">
+
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Lesson 3: Images</h1>
+      <p>Images can be inserted in the document with the help of the "&lt;img&gt;" tag. In the "&lt;img&gt;" tag, we
+        use the src attribute that informs the browser about the image source. Let's look at the following code to
+        understand it better:</p>
+        <br>
+<hr>
+<br>
+        <h1 class="img"><img src="images/Picture5.png"></h1>
+<br>
+<hr>
+<br>
+    <h1 class="img"><img src="images/Picture6.png"></h1>
+<br>
+<hr>
+<br>
+<p>If you observe the code and the output, you can see that we assigned the width and height of the image as 200 and
+    210, respectively. Another aspect to consider is that the "&lt;img&gt;" element does not have a closing tag. We also
+    assigned the "PacktLib" value to the alt attribute. The alt attribute specifies the text of the image if the
+    image doesn't get displayed due to reasons such as incorrect syntax or a slow connection.</p>
+    </main>
+<br>
+<br>
+<br>
+<br>
+<br>
+<hr>
+<br>
+
+
+
+    <footer>
+        <p>&copy; 2023 Kerry Networks. All rights reserved.</p>
+        <p>Author: Dylan Kerry</p>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="mailto:Dylankerry01@gmail.com">Send email to the Author</a>
+        &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;
+<a href="/privacy">Privacy Policy</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="/legal">Terms of Service</a>
+<br>
+<br>
+<hr>
+    </footer>
+
+<script>
+        const searchButton = document.getElementById('searchButton');
+        const searchInput = document.getElementById('searchInput');
+
+        searchButton.addEventListener('click', () => {
+            const searchTerm = searchInput.value;
+            alert(`You searched for: ${searchTerm}`);
+        });
+    </script>
+
+</body>
+</html>

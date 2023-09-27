@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kerry Learning - Lesson 1</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <h1 class="img"><img src="images/logo.png">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+                Kerry Learning</h1>
+            <ul class="menu">
+                <li><a href="copy_html.html">Home</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li div class="dropdown">
+                    <button class="dropbtn">Lessons</button>
+                    <div class="dropdown-content">
+                        <a href="Lesson1.html">Lesson 1</a>
+                        <a href="Lesson2.html">Lesson 2</a>
+                        <a href="Lesson3.html">Lesson 3</a>
+                    </div>
+               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <input type="text" placeholder="Search..">
+
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Lesson 1: Thinking in HTML</h1>
+     <p>
+HTML originated from a prototype created by Tim Berners-Lee in 1992. Berners-Lee felt that
+there was a possibility of linking documents together by the use of hypertext, and the concept
+of HTML evolved. The drawback was that the commercial hypertext packages available at that
+time, such as Zog and Intermedia, were customized to suit different types of computers and
+were too ambiguous in nature.</p>
+        <p>
+Berners-Lee developed HyperText Markup Language (HTML), and in conjunction, he
+developed a protocol to access text from other documents via hyperlinks. The protocol was
+called HTTP, and this paved the way for the future. HTML itself was derived from a markup
+language called Standard Generalized Markup Language (SGML).</p>
+<p>Standardization being an ongoing process, modifications were constantly made and
+versions were released accordingly. The various versions of HTML that have been released
+are as follows:</p>
+       <Br><li>HTML 2.0 (November 1995)</li>
+        <Br><li>HTML 3.2 (January 1997)</li>
+       <Br> <li>HTML 4.0 (December 1997)</li>
+      <Br><li>HTML 4.01 (December 1999)</li>
+      <Br><li>TML5, which is widely used, but is still in the development stage</li>
+        <br>
+<p>Another breakthrough in the field was the introduction of CSS along with HTML 4.0. Prior to
+the introduction of CSS, web designers and developers used HTML for formatting purposes.
+Formatting and styling a web page using HTML defeats the purpose of HTML, because HTML
+elements and attributes must only define the structure of the web page. The purpose of CSS
+was to separate styling out from structural markup. With the introduction of CSS, we could
+separate presentation from content. As a result, formatting could be separated from the HTML
+document and stored in a separate file, which could then be included in the document using a
+link tag</p>
+        <br>
+        <hr>
+        <br>
+        <h1 class="img"><img src="images/Picture1.png"></h1>
+        <br>
+        <hr>
+        <br>
+            <h1 class="img"><img src="images/Picture2.png"></h1>
+                <br>
+                <br>
+                <br>
+
+    </main>
+    <hr>
+    <footer>
+        <p>&copy; 2023 Kerry Networks. All rights reserved.</p>
+        <p>Author: Dylan Kerry</p>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="mailto:Dylankerry01@gmail.com">Send email to the Author</a>
+        &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;
+<a href="/privacy">Privacy Policy</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="/legal">Terms of Service</a>
+<br>
+<br>
+<hr>
+    </footer>
+
+<script>
+        const searchButton = document.getElementById('searchButton');
+        const searchInput = document.getElementById('searchInput');
+
+        searchButton.addEventListener('click', () => {
+            const searchTerm = searchInput.value;
+            alert(`You searched for: ${searchTerm}`);
+        });
+    </script>
+
+</body>
+</html>

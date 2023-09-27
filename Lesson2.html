@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kerry Learning - Lesson 2</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <h1 class="img"><img src="images/logo.png">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+                Kerry Learning</h1>
+            <ul class="menu">
+                <li><a href="copy_html.html">Home</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li div class="dropdown">
+                    <button class="dropbtn">Lessons</button>
+                    <div class="dropdown-content">
+                        <a href="Lesson1.html">Lesson 1</a>
+                        <a href="Lesson2.html">Lesson 2</a>
+                        <a href="Lesson3.html">Lesson 3</a>
+                    </div>
+               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <input type="text" placeholder="Search..">
+
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Lesson 2: Attributes</h1>
+      <p>HTML elements can have attributes that provide additional information about an element.
+      They come in &lt;name: value&gt;" pairs and are always a part of the opening tag. The value of
+      the attribute must be enclosed in quotes for clarity (though it is not always necessary).</P>
+      <p>Let's look at the following code to understand it better:</p>
+<br>
+<hr>
+<br>
+        <h1 class="img"><img src="images/Picture3.png"></h1>
+<br>
+<hr>
+<br>
+    <h1 class="img"><img src="images/Picture4.png"></h1>
+<br>
+<hr>
+<br>
+ <p>   If you observe the code and the output, you can see that we used both inline and internal
+styles. We defined the first paragraph "&lt;p&gt;" tag with a "packtpub" ID and the second
+paragraph tag with a "learn" class. Now, when you check the "&lt;style&gt;" element in the
+&lt;head&gt;" section of the code, we designated values to the "packtpub" ID and the "learn"
+class. For the third paragraph tag, we used an inline style with the "lime" color associated
+with it. We will get to inline and block elements later on in this book; for now, let's understand
+the code. The id attribute is unique and can be used for a single element, whereas a class
+attribute is used to style multiple elements. Also, an element can have multiple classes. The
+id attribute (packtpub) in the preceding code was assigned the navy color and italic font
+style as values, whereas the class attribute (learn) was assigned the maroon color and a
+     font size of 40. Thus, you can define the characteristics of an element with attributes. </p>
+    </main>
+
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<hr>
+<br>
+
+
+    <footer>
+        <p>&copy; 2023 Kerry Networks. All rights reserved.</p>
+        <p>Author: Dylan Kerry</p>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="mailto:Dylankerry01@gmail.com">Send email to the Author</a>
+        &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;
+<a href="/privacy">Privacy Policy</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="/legal">Terms of Service</a>
+<br>
+<br>
+<hr>
+    </footer>
+
+<script>
+        const searchButton = document.getElementById('searchButton');
+        const searchInput = document.getElementById('searchInput');
+
+        searchButton.addEventListener('click', () => {
+            const searchTerm = searchInput.value;
+            alert(`You searched for: ${searchTerm}`);
+        });
+    </script>
+
+</body>
+</html>
